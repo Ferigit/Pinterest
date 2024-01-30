@@ -61,7 +61,7 @@ const LoginForm = ({ onFormSubmit }: IProps) => {
           <TextInput
             name="password"
             id="password"
-            type="text"
+            type="password"
             placeholder="Enter password"
             register={register}
             errors={errors}
