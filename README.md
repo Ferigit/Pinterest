@@ -21,26 +21,27 @@ Approach:
     2. /api/posts/get (get posts list)
     3. /api/posts/post (create new post)
     4. /api/posts/delete (delete the post)
-3. Authentication is implemented by cookies-next(client & server) and AuthContext 
-4. src folder structure
+3. Authentication is implemented by cookies-next(client & server) and AuthContext
+4. Add apiInstance to handle all https requests(GET, POST, PUT, DELETE) (path:src/utils/api.ts)
+5. src folder structure
     1. components 
         1. business (business specific i.e. LoginForm, NewPostForm, PostList, ...)
         2. common components (Unit components i.e. TextInput, Image, Modal, ... )
         3. shared components (Header, Layout)
-5. full dynamic form using react-hook-form and yup validation is implemented and able to connect in controlled and un-controlled modes to unit components
-6. Zustand in-memory state management
+6. full dynamic form using react-hook-form and yup validation is implemented and able to connect in controlled and un-controlled modes to unit components
+7. Zustand in-memory state management
     1. persist store to keep posts in the cookie  
     2. non-persist to keep tool draft posts
-7. Constant folder to keep constant variables
-8. contexts folder(Auth context)
-9. hooks folder keeps the extracted and created custom hooks
-10. Icons folder keeps custom svg icons
-11. pages folder contains the API routes and home page and create-post-tool page 
-12. store folder contain persist postStore and non-persist draftToolPostStore
-13. styles folder keeps the global styles
-14. for accessibility I have used semantic HTML5 tags, meta head tags and tabIndex
-15. types folder contains the static types 
-16. utils folder keeps the utility functions
+8. Constant folder to keep constant variables
+9. contexts folder(Auth context)
+10. hooks folder keeps the extracted and created custom hooks
+11. Icons folder keeps custom svg icons
+12. pages folder contains the API routes and home page and create-post-tool page 
+13. store folder contain persist postStore and non-persist draftToolPostStore
+14. styles folder keeps the global styles
+15. for accessibility I have used semantic HTML5 tags, meta head tags and tabIndex
+16. types folder contains the static types 
+17. utils folder keeps the utility functions
 
 
 ## How to Use
