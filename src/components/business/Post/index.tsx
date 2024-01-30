@@ -45,7 +45,7 @@ const Post: React.FC<ImageComponentProps> = ({
           className="top-4 left-4 absolute w-fit text-xs md:text-base md:w-24 z-10 bg-red-100 text-white hover:text-white hover:bg-red-100 "
           onClick={handleDeletePost}
         >
-          z Delete
+           Delete
         </Button>
       )}
       <Tags tags={tags} />

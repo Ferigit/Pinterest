@@ -19,7 +19,7 @@ export default function Posts() {
             !posts.length
           )}
         >
-          Create and save your first post!
+          Publish your first post!
         </Link>
       </div>
     );
