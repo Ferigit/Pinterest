@@ -42,6 +42,8 @@ Approach:
 15. for accessibility I have used semantic HTML5 tags, meta head tags and tabIndex
 16. types folder contains the static types 
 17. utils folder keeps the utility functions
+18. Addted storybook to TextInput component (path: src/components/common/TextInput/TextInput.stories.tsx)
+19. Added unit test to TextInput component (path: src/components/common/TextInput/TextInput.test.tsx)
 
 
 ## How to Use
