@@ -1,6 +1,6 @@
 # Next.js(v.14) + Jest + TypeScript + Storybook + react-hook-form + husky + prettier
 
-DEMO:
+DEMO of Pinterest like application:
 1. navigate to the home page (route /)
 2. if the user is not logged in there is a login button at the top right to login.
 3. the user can log in by passing a username and password(mock creds. i.e. username: testuser, pass: pass123 with at least 5 chars), then auth creds save to cookie and navigate to the home page for published posts
